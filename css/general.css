@@ -44,7 +44,6 @@ nav{
 
 .ul__navbar{
     margin-left: 200px;
-    
     gap:150px;
     align-items: center;
     width: 70%;
@@ -54,12 +53,11 @@ nav{
 }
 
 .ul__navbar li {
-    width:9%;
-    font-weight: bold;
-   
-    
-
+    width:20%;
+    font-weight: bold;  
 }
+
+
 .ul__navbar li a {
     width: 100%;
     font-size: 20px;
