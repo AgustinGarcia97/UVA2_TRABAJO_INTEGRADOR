@@ -1,0 +1,114 @@
+main, .about_us__container, .coder__card,
+img__container, data__container, .links__buttons{
+    display: flex;
+}
+
+main{
+    width:100%;
+    justify-content: center;
+    box-sizing: border-box;
+}
+
+.about_us__container{
+    width: 80%;
+    
+    justify-content: center;
+    margin-top: 50px;
+    gap:33px;
+}
+
+.coder__card{
+    width:263px;
+    height: 366px;
+    background-color:#fff ;
+    padding:20px;
+    align-items: center;
+    justify-content: center;
+    gap:30px;
+    flex-direction: column;
+    padding: 35px 16px 35px 16px;
+    border-radius:14px;
+    filter: brightness(0.6);
+    transition: 0.3s;
+  
+}
+
+.coder__card:hover{
+    filter: brightness(1);
+    transition: 0.3s;
+}
+
+
+.data__container h2{
+    background-color: #fff;
+    color:#4817A4;
+}
+
+.img__container{
+    height: 164px;
+    width: 164px;
+    border-radius: 50%;
+
+}
+
+.img__container img{
+    height: 100%;
+    width:100%;
+    border-radius: 50%;
+    border: 1px solid #7922E2;
+}
+
+.data__container div{
+    height:43px;
+    width:231px;
+    background-color: #fff;
+}
+
+.links__buttons{
+    height:43px;
+    width:231px;
+    background-color: #fff;
+    padding:10px 19px 10px 19px;
+    gap:10px;
+    
+}
+
+.links__buttons button{
+    height:43px;
+    width: 117px;
+    border-radius:6px;
+    cursor: pointer;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.first_button,.first_button a{
+    background-color: #7922E2;
+}
+
+
+
+.second_button{
+    background-color: #fff;
+    border: 3px solid #4817A4 ;
+}
+
+.second_button a{
+    background-color: #fff;
+    color:#4817A4;
+    
+}
+
+
+@media (max-width: 768px){
+    .about_us__container{
+      flex-direction: column;
+    }
+
+
+    main{
+        margin-bottom: 100px;
+    }
+   
+   
+}
