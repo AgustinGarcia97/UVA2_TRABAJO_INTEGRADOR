@@ -73,24 +73,34 @@ main{
     
 }
 
-.links__buttons button{
+.links__buttons div{
     height:43px;
     width: 117px;
     border-radius:6px;
     cursor: pointer;
     font-size: 20px;
     font-weight: 700;
+    
 }
 
 .first_button,.first_button a{
     background-color: #7922E2;
+   
 }
 
-
+.first_button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 3px solid #4817A4 ;
+}
 
 .second_button{
     background-color: #fff;
     border: 3px solid #4817A4 ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .second_button a{
