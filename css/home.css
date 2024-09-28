@@ -1,4 +1,4 @@
-main, .home__container, .subtitle__container, .title__container, .slogan__container,
+/* main, .home__container, .subtitle__container, .title__container, .slogan__container,
 .img__container{
     display: flex;
 }
@@ -7,7 +7,7 @@ main{
     width: 100%;
     justify-content: center;
     flex-wrap: wrap;
-}
+} */
 
 .main_title__container{
     width:100%;
@@ -20,9 +20,6 @@ main{
     margin-top: 60px;
 
 }
-
-
-
 
 .home__container{
     flex-direction: row;
@@ -84,10 +81,8 @@ main{
     width:110px;
     background-color:#7922E2;
     border-radius: 5px;
-    
-    
-
 }
+
 .button_container_main a {
     background-color: transparent;
     font-weight: bold;

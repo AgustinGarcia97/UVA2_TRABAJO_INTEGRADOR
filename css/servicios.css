@@ -63,21 +63,24 @@ b{
     letter-spacing: 1px;
 }
 
-/* FOOTER SERVICIOS CSS */
-.contenedor-footer{
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
-    width: 100%;
-    padding: 1rem;
-    margin-top: 2.5rem;
-    border-top: 1px solid gray;
-}
-.infor{
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
-}
+.title-servicio{
+    color: #FFF;
+    font-family: "Roboto", system-ui;
+    font-size: 45px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+  }
+
+  .text-servicio{
+    color: #FFF;
+    font-family: "Roboto", system-ui;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+  }
+
 
 /* MEDIA QUERIES SERVICIOS*/
 
@@ -101,14 +104,7 @@ b{
         padding: 0.5rem;
     }
 
-    /* MEDIA QUERIES FOOTER */
-
-    .contenedor-footer{
-        flex-direction: column;
-        align-items: center;
-        padding: 0;
-        gap: 1rem;
-    }
+  
     .contenedor-informacion{
         display: flex;
         flex-direction: column;
