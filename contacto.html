@@ -22,7 +22,19 @@
     crossorigin="anonymous"></script>
   <link rel="stylesheet" href="css/general.css">
   <title>CodeGroup</title>
+  <style>
+    body,
+    html {
+      height: 100%;
+      margin: 0;
+    }
 
+    footer {
+      position: fixed;
+      bottom: 0;
+      width: 100%;
+    }
+  </style>
 </head>
 
 <body>
@@ -49,7 +61,7 @@
               <a class="nav-link" href="portafolio.html">Portafolio</a>
             </li>
             <li class="nav-item px-5">
-              <a class="nav-link" href="#">Soporte</a>
+              <a class="nav-link" href="soporte.html">Soporte</a>
             </li>
             <li class="nav-item px-5">
               <a class="nav-link active" href="contacto.html">Contacto</a>
@@ -59,8 +71,8 @@
       </div>
     </nav>
   </header>
-  <main >
-    <div style="height: 100%;">
+  <main class="flex-shrink-0">
+    <div class="container">
       <h1 class="title-portafolio text-center mt-5">Próximamente</h1>
     </div>
   </main>
@@ -83,14 +95,12 @@
         </div>
       </div>
     </div>
-    </div>
   </footer>
   <footer class="footer mt-auto py-3 bg-light text-footer d-block d-sm-none">
     <div class="container">
       <div class="row mb-3">
         <div class="col-12 text-center">Todos los derechos reservados - <br> Sitio desarrollado para uso educativo -
-          2024
-        </div>
+          2024</div>
       </div>
       <div class="">
         <div class="row mb-1 ml-custom">
@@ -107,7 +117,6 @@
         </div>
       </div>
     </div>
-    <!-- </div> -->
   </footer>
 
   <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
@@ -119,10 +128,8 @@
       });
 
       $('.navbar-toggler').click(function () {
-
         $('.navbar-collapse').collapse('toggle');
       });
-
     });
   </script>
 </body>
